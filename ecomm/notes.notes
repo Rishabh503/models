@@ -1,0 +1,26 @@
+model bnana hai ok
+
+major steps ka crux 
+
+S1->IMPORT MONGOOSE
+S2->CREATE A SCHEMA
+S3->CREATE A MODEL
+
+-=REFER TO USER MODEL=-
+
+-=S2 points to remmber=-
+first param me
+we have to define the whole model here and usme hum use pura define krte hai 
+second param me
+abhi hum timestamps true krre hai jiska mtlb hai ki hum createdAt and updatedAt field sidha mongse se lere hai 
+
+-=S3 me points to remmber=-
+we always export model
+
+that model func takes two field
+-> first is name of the model
+----> isme kya hota hai for standard prac we keep the name of the variable and this name of model same 
+----> and then jab ye mongoose me convert hoga to wo usko plural form me save krega always and lowercase me
+ (hum kuch bhi de end me uski pural save hogi chahe hum Product de ya products end me products me rahega )
+
+->second is the schema we made in step 2 
