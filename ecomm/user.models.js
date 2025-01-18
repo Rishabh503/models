@@ -1,5 +1,8 @@
+
+//S1
 import mongoose from "mongoose"
 
+//S2
 const userSchema = new mongoose.schema(
   {
     username:{
@@ -22,5 +25,5 @@ const userSchema = new mongoose.schema(
   }, 
   {timestamps:true}
   )
-
+//S3
 export const User=mongoose.model("User",userSchema)
